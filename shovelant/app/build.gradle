@@ -3,6 +3,12 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+allprojects {
+    repositories {
+        google()
+    }
+}
+
 android {
     compileSdk 31
 
