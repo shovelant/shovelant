@@ -1,4 +1,4 @@
-package com.shovelant.shovelant3
+package com.shovelant.shovelant
 
 import org.junit.Test
 

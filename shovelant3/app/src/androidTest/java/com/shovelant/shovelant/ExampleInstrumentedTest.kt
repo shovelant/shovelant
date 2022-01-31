@@ -1,4 +1,4 @@
-package com.shovelant.shovelant3
+package com.shovelant.shovelant
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
