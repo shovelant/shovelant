@@ -15,7 +15,7 @@
         android:background="@drawable/gradient_drawable"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/titlesplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
@@ -25,5 +25,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlesplash"
+        android:onClick="exampleOnClick"
+        android:text="Material Button"
+        android:textColor="#FFFFFF"
+        style="?attr/materialButtonOutlinedStyle"/> <!-- still havent figured out how to do tonal or elevated style since they're new to material3, but this works for traditional and outlined -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
